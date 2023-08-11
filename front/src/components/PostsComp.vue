@@ -5,9 +5,7 @@
        <!-- <p>{{ page.time_add }}</p>-->
 
     </div>
-    <nav>
-        <RouterLink to="/"></RouterLink>
-    </nav>
+   
 </template>
 
 <script>

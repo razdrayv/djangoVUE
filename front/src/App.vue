@@ -1,21 +1,17 @@
 <template>
   <div>
     <HeaderComp/>
-    <PostsComp/>
     <RouterView/>
   </div>
 </template>
 
 <script>
-import HeaderComp from './components/HeaderComp.vue';
-import PostsComp from './components/PostsComp.vue';
 import {RouterView} from 'vue-router'
-  export default {
-    components:{
-      HeaderComp,
-      PostsComp
-    }
-  }
+import HeaderComp from './components/HeaderComp.vue';
+export default {
+      components:{
+        HeaderComp,}
+        }
 </script>
 
 <style scoped>

@@ -2,7 +2,7 @@
     <header>
         <nav>
             <RouterLink to="/">Home</RouterLink> -
-            <RouterLink to="/blog">Events</RouterLink>
+            <RouterLink to="about">Events</RouterLink>
         </nav>
         </header>
 </template>
